@@ -4,4 +4,8 @@ if (!$os) {
     if (strstr($sysDescr, 'Canon MF')) {
         $os = 'canonprinter';
     }
+    // Canon Ir-ADV Printer/Scanner
+    if (strstr($sysDescr, 'Canon iR')) {
+        $os = 'canonprinter';
+    }
 }
